@@ -5,7 +5,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
 
-.container > div {
+.item {
   height: 300px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -16,22 +16,22 @@ body {
   line-height: 300px;
   color: white; }
 
-.container > div:nth-of-type(1) {
+.item:nth-of-type(1) {
   background-color: red; }
 
-.container > div:nth-of-type(2) {
+.item:nth-of-type(2) {
   background-color: #cc0000; }
 
-.container > div:nth-of-type(3) {
+.item:nth-of-type(3) {
   background-color: #990000; }
 
-.container > div:nth-of-type(4) {
+.item:nth-of-type(4) {
   background-color: #660000; }
 
-.container > div:nth-of-type(5) {
+.item:nth-of-type(5) {
   background-color: #330000; }
 
-.container > div:nth-of-type(6) {
+.item:nth-of-type(6) {
   background-color: black; }
 
 @media (min-width: 1200px) {
